@@ -1,0 +1,22 @@
+.button{
+    float:left; margin-right:2px;
+    background-color:#bbb;
+    height:40px; line-height:40px;
+    padding:0 20px;
+    font-weight:bold;  
+    border: solid 5px #000;
+    
+    border-width:0 4px 5px 0;
+    border-radius:5px;
+    border-color:transparent #ddd #999 transparent;
+    background-clip:padding-box;
+    
+  }
+  
+  .button:hover{
+    border-width:0 2px 3px 0; 
+    margin-right:4px;
+    position:relative;
+    left:2px;
+    top:3px;
+  }
