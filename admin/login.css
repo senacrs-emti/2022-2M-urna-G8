@@ -1,0 +1,18 @@
+.col{
+   margin-left: 320px;
+   
+}
+.card-img-top{
+   margin-left: 30px;
+
+}
+main{
+   background-color: green;
+}
+.card{
+   background-color: yellow;
+
+}
+.form-control-plaintext{
+   background-color: white!important;
+}

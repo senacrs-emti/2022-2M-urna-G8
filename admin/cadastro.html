@@ -8,65 +8,73 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="cadastro.css">
 
     <title>Cadrasto de Usuario</title>
   </head>
   <body>
-    <h1>Cadastro de Usuario</h1>
+   
     <header>
 
 
     </header>
     <main>
-      <form>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-          </div>
-          <div class="form-group col-md-6">
-            <label for="inputPassword4">Senha</label>
-            <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+    <div class="card" style="width: 30rem;height: 800px;">
+      <img class="card-img-top" src="content/logo-senac.png" style="height: 24rem;width:25rem;">
+      <div class="card-body">
+        <div class="container">
+          <div class=" row">
+            <div class="col">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Senha</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                  </div>
+                </div>  
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Cidade</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputEstado">Estado</label>
+                    <select id="inputEstado" class="form-control">
+                      <option selected>Escolher...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputCEP">CEP</label>
+                    <input type="text" class="form-control" id="inputCEP">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Clique em mim
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Finalizado</button>
+                <a href="login.html" class="btn btn-primary">Fazer Login</a>
+              </form>
+            </div>
           </div>
         </div>
-        <div class="form-group">
-          <label for="inputAddress">Endereço</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
-        </div>
-        <div class="form-group">
-          <label for="inputAddress2">Endereço 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
-        </div>
-        <div class="form-row">
-          <div class="form-group col-md-6">
-            <label for="inputCity">Cidade</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="form-group col-md-4">
-            <label for="inputEstado">Estado</label>
-            <select id="inputEstado" class="form-control">
-              <option selected>Escolher...</option>
-              <option>...</option>
-            </select>
-          </div>
-          <div class="form-group col-md-2">
-            <label for="inputCEP">CEP</label>
-            <input type="text" class="form-control" id="inputCEP">
-          </div>
-        </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Clique em mim
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Entrar</button>
-      </form>
-
-    </main>  
+      </main>
+  
+       
+      </div>
+    </div>
+    
+      
+      
     <footer>
 
 

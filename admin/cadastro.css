@@ -1,0 +1,15 @@
+main{
+ 
+    margin-left: 400px;
+}
+
+body{
+    background-color: green;
+}
+.card{
+    background-color: yellow;
+}
+.card-img-top{
+    margin-left: 35px;
+    
+ }
