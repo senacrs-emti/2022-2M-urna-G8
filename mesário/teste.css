@@ -1,0 +1,102 @@
+
+
+.button{
+    float:left; margin-right:2px;
+    background-color:rgb(43, 39, 39);
+    height:40px; line-height:40px;
+    padding:0 20px;
+    font-weight:bold;  
+    border: solid 5px rgb(243, 0, 0);
+    
+    border-width:0 4px 5px 0;
+    border-radius:5px;
+    border-color:transparent rgb(0, 0, 0) rgb(0, 0, 0) transparent;
+    background-clip:padding-box;
+    color: white;
+    font-family: Trebuchet MS, sans-serif;
+    
+  }
+  
+  .button:hover{
+    border-width:0 2px 3px 0; 
+    margin-right:4px;
+    position:relative;
+    left:2px;
+    top:3px;
+  }
+
+  #corrige{
+    background-color: red;
+    border-color: rgb(186, 7, 7);
+  }
+
+  #confirma{
+    background-color: rgb(37, 201, 37);
+    border-color: green;
+  }
+
+  .test {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.5rem;
+    margin-bottom: 1rem ;
+    gap: 0.5rem;
+    margin-top: 95px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    margin-left: 490px;
+  }
+
+  .seguranca{
+    border: solid 1px;
+    padding-left: 10px;
+    margin-left: 200px;
+    padding-right: 140px;
+    height: 26px;
+  }
+
+  #seguranca{
+    font-family: Trebuchet MS, sans-serif;
+  }
+
+
+  @font-face {
+    font-family: 'vcr_osd_monoregular';
+    src: url('fonts/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+         url('fonts/vcr_osd_mono_1.001-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+  #tela{
+    background-color: rgb(61, 138, 70);
+    margin-left: 415px;
+    margin-right: 410px;
+  }
+
+  #telaletra{
+    font-weight: 200;
+    font-family: 'vcr_osd_monoregular';
+  }
+  #bateriainterna{
+    font-family: Trebuchet MS, sans-serif;
+  }
+
+.bateriainterna{
+  border: solid 1px;
+  padding-left: 10px;
+  margin-left: 200px;
+  padding-right: 100px;
+  height: 26px; 
+}
+
+#aguarde{
+  font-family: Trebuchet MS, sans-serif;
+}
+
+#liberado{
+  font-family: Trebuchet MS, sans-serif;
+}
