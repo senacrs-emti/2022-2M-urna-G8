@@ -24,10 +24,11 @@
 /*----------------- Tela da urna-----------------*/
 #tela{
   border: solid black;
-    margin-top: 2rem;
-    width: 70%;
-    height: 22rem;
-    float: left;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  width: 63%;
+  height: 30rem;
+  float: left;
 }
 /* ============================================= */
 
@@ -35,9 +36,10 @@
 
 /* ---------- Todos os Botões da Urna ---------- */ 
 
-.urnabutton{
+.todosurna{
+  width: 30%;
   float: right;
-  margin-left: 20rem;
+  border: solid black;
 }
 
 /* ============================================= */
