@@ -26,18 +26,22 @@
 /*===============================================*/
 
 /* --------------- Botões da Urna --------------- */
+#zero{
+  margin-left: 34.1rem;
+}
+
 .button{
-  float:left; margin-right:2px;
+  margin-right:2px;
   background-color:rgb(43, 39, 39);
   height:40px; line-height:40px;
   padding:0 20px;
   font-weight:bold;  
-  border: solid 5px rgb(243, 0, 0); 
+  border: solid 5px rgb(255, 255, 255); 
   border-width:0 4px 5px 0;
   border-radius:5px;
   border-color:transparent rgb(0, 0, 0) rgb(0, 0, 0) transparent;
   background-clip:padding-box;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: Trebuchet MS, sans-serif;
 }
   
@@ -52,6 +56,15 @@
 
 /* -------------- Botões Corrige e Confirma ----------- */
 
+.bcc{
+  color: black;
+}
+
+#branco{
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(145, 143, 143);
+}
+
 #corrige{
   background-color: red;
   border-color: rgb(186, 7, 7);
@@ -63,7 +76,7 @@
 }
 
 .corcon{
-  margin-left: 32.69rem;
+  margin-left: 30.9rem;
 }
 
 /* ====================================================== */
