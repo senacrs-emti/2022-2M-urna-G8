@@ -1,0 +1,22 @@
+main{
+ 
+   margin-left: 400px;
+}
+
+body{
+   background-color: green;
+   margin: 50px;
+  margin-left: 140px;
+}
+.card{
+   background-color: yellow;
+}
+.card-img-top{
+   margin-left: 35px;
+   
+}
+element.style {
+   width: 50rem;
+   height: 50rem;
+   align-items: center;
+}

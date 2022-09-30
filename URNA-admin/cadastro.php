@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -19,8 +18,8 @@
 
     </header>
     <main>
-    <div class="card" style="width: 30rem;height: 800px;">
-      <img class="card-img-top" src="content/logo-senac.png" style="height: 24rem;width:25rem;">
+    <div class="card" style="width: 50rem;height: 50rem;aling-items: center;">
+      <img class="card-img-top" src="content/SenacLogo.png" style="height: 34rem;width:40rem;margin-left: 60px;">
       <div class="card-body">
         <div class="container">
           <div class=" row">
@@ -62,7 +61,7 @@
                   </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Finalizado</button>
-                <a href="login.html" class="btn btn-primary">Fazer Login</a>
+                <a href="login.php" class="btn btn-primary">Fazer Login</a>
               </form>
             </div>
           </div>
