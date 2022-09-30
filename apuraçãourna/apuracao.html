@@ -1,5 +1,13 @@
 
 <!DOCTYPE HTML>
+<? php
+$estados = array(
+    "RS" => "Rio Grande do sul",
+    "SP" => "São Paulo",
+);
+
+
+?>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -27,6 +35,12 @@
   </li>
     <li><a href="#">Deputado Estadual</a>
         <ul>
+          <?php
+          foreach ($ESTADOS as &$valor) {
+            $valor[1];
+        }
+          
+          ?>
           <li><a href="#">Rio Grande do Sul</a></li>
           <li><a href="#">São Paulo</a></li>
           <li><a href="#">Rio de Janeiro</a></li>
@@ -54,19 +68,12 @@
         <li><a href="#">Paraná</a></li>
         <li><a href="#">Santa Catarina</a></li>
       </ul></li>
-
-
-
-
-
-
-
-
 </ul>
 </nav>
 <div class="logo-div">
   <img id="logo" src="https://seletivos.rr.senac.br/assets/images/custom/logo.png" alt="logo-senac">
 </div>
 </header>
+      <div class="votos"> </div>
 </body>
 </html>
