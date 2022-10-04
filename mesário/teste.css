@@ -35,6 +35,7 @@
     border-color: green;
   }
 
+/*
   .test {
     display: flex;
     flex-direction: column;
@@ -43,25 +44,18 @@
     gap: 0.5rem;
     margin-top: 95px;
   }
+
+
   .container {
     display: flex;
     align-items: center;
     margin-left: 490px;
   }
+*/
 
-  .seguranca{
-    border: solid 1px;
-    padding-left: 10px;
-    margin-left: 200px;
-    padding-right: 140px;
-    height: 26px;
-  }
-
-  #seguranca{
-    font-family: Trebuchet MS, sans-serif;
-  }
-
-
+#um{
+  padding-right: 100px;
+}
   @font-face {
     font-family: 'vcr_osd_monoregular';
     src: url('fonts/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
