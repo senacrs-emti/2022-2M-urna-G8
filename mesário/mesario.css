@@ -1,19 +1,117 @@
-.tela{
-    background-color: aquamarine;
-    margin-left: 350px;
-    margin-right: 350px;
-    padding-bottom: 90px;
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*===============================================*/
+  /* -------------- Div's dos Botões ------------- */
+  .buttonc {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  /*===============================================*/ 
+  #tela{
+    background-color: rgb(61, 138, 70);
+    margin-left: 415px;
+    margin-right: 410px;
+    padding-bottom: 100px;
+    margin-top: 30px;
+  }
+
+  @font-face {
+    font-family: 'vcr_osd_monoregular';
+    src: url('fonts/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+         url('fonts/vcr_osd_mono_1.001-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  #telaletra{
+    font-weight: bold;
+    font-family: 'vcr_osd_monoregular';
+  }
+
+  .button{
+    margin-right:2px;
+    background-color:rgb(43, 39, 39);
+    height:40px; line-height:40px;
+    padding:0 20px;
+    font-weight:bold;  
+    border: solid 5px rgb(255, 255, 255); 
+    border-width:0 4px 5px 0;
+    border-radius:5px;
+    border-color:transparent rgb(0, 0, 0) rgb(0, 0, 0) transparent;
+    background-clip:padding-box;
+    color: rgb(255, 255, 255);
+    font-family: Trebuchet MS, sans-serif;
+  }
+    
+  .button:hover{
+    border-width:0 2px 3px 0; 
+    margin-right:4px;
+    position:relative;
+    left:2px;
+    top:3px; 
+  }
+    
+  #corrige{
+    background-color: red;
+    border-color: rgb(186, 7, 7);
+  }
+  
+  #confirma{
+    background-color: rgb(37, 201, 37);
+    border-color: green;
+  }
+  
+  #um{
+    margin-left: 558px;
+    margin-bottom: 5px;
+    margin-top: 80px;
+  }
+
+  #dois{
+    margin-left: 558px;
+    margin-bottom: 5px;
+  }
+
+  #quatro{
+    margin-left: 558px;
+    margin-bottom: 15px;
+
+  }
+
+  #cinco{
+    margin-left: 503px;
+    margin-bottom: 5px;
 }
 
-#nada{
-    background-color: blue;
+#seguranca{
+    font-family: Trebuchet MS, sans-serif;
+    margin-left: 200px;
+    border: solid;
+    padding-right: 30px;
+
+}
+
+#bateriainterna{
+    margin-top: 30px;
+    font-family: Trebuchet MS, sans-serif;
     margin-left: 200px;
 }
 
-#botoes{
-    background-color: blueviolet;
+#aguarde{
+    font-family: Trebuchet MS, sans-serif;
+    margin-left: 200px;
 }
 
-#informacoes{
-    background-color: cadetblue;
+#liberado{
+    font-family: Trebuchet MS, sans-serif;
+    margin-left: 132px;
+
 }
