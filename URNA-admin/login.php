@@ -33,7 +33,7 @@
                     <input type="password" class="form-control" id="inputPassword4">
                   </div>
                 </div>  
-                <a href="cadastro.php" class="btn btn-primary">Cadastre-se</a> <a href="" class="btn btn-primary">Entrar</a>
+                <a href="cadastrocandidatos.php" class="btn btn-primary">Cadastre-se</a> <a href="" class="btn btn-primary">Entrar</a>
 </main>
 <footer>
 </footer>

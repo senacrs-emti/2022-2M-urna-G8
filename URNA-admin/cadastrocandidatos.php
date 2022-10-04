@@ -18,7 +18,7 @@
 
     </header>
     <main>
-    <div class="card" style="width: 50rem;height: 50rem;aling-items: center;">
+    <div class="card" style="width: 50rem;height: 55rem;aling-items: center;">
       <img class="card-img-top" src="content/SenacLogo.png" style="height: 34rem;width:40rem;margin-left: 60px;">
       <div class="card-body">
         <div class="container">
@@ -36,21 +36,40 @@
                   </div>
                 </div>  
                 <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputCity">Cidade</label>
-                    <input type="text" class="form-control" id="inputCity">
-                  </div>
                   <div class="form-group col-md-4">
                     <label for="inputEstado">Estado</label>
-                    <select id="inputEstado" class="form-control">
-                      <option selected>Escolher...</option>
-                      <option>...</option>
-                    </select>
+                    <select id="inputEsrado" class="form-control"> 
+    <option value="estado">Selecione o Estado</option> 
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+
                   </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputCEP">CEP</label>
-                    <input type="text" class="form-control" id="inputCEP">
-                  </div>
+                  
                 </div>
                 <div class="form-group">
                   <div class="form-check">
@@ -60,8 +79,8 @@
                     </label>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Finalizado</button>
-                <a href="login.php" class="btn btn-primary">Fazer Login</a>
+              
+                <a href="login.php" class="btn btn-primary">Salvar</a>
               </form>
             </div>
           </div>

@@ -1,12 +1,8 @@
-main{
- 
-    margin-left: 400px;
-}
 
 body{
     background-color: green;
-    margin: 50px;
-   margin-left: 140px;
+    margin: 5%;
+  margin-left: 20%;
 }
 .card{
     background-color: yellow;
