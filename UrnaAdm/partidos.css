@@ -75,3 +75,30 @@ top:50%;
 opacity:100%;
     }
 }
+.cabeca{
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 10%;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    outline: none;
+    border-radius: 20px;
+    cursor:pointer;
+    background: linear-gradient(-45deg, #ffce51, #228b22,#228b22 );
+    
+}
+.cabeca2{
+    text-decoration: none;
+    border-radius: none;
+    background-color: transparent;
+}
+
+.cabeca3{
+
+}
+*:focus {
+    outline: none;
+}
