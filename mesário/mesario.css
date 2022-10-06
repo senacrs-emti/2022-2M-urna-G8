@@ -20,6 +20,7 @@
     margin-right: 410px;
     padding-bottom: 100px;
     margin-top: 30px;
+    border: solid;
   }
 
   @font-face {
@@ -95,23 +96,85 @@
     font-family: Trebuchet MS, sans-serif;
     margin-left: 200px;
     border: solid;
-    padding-right: 30px;
-
+}
+.texto{
+  float: left;
+  padding-right: 15px;
+}
+.sinal{
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+  border: 2px solid #333;
+  border-radius: 15px;
+}
+.seguranca-on{
+  background-color: red;
+}
+.seguranca-off{
+  background-color: rgb(84, 13, 13);
+}
+#segurancaletra{
+  background-color: red;
 }
 
 #bateriainterna{
     margin-top: 30px;
     font-family: Trebuchet MS, sans-serif;
     margin-left: 200px;
+    border: solid;
+    padding-right: 0px;
+}
+.bateriainterna-on{
+  background-color: red;
+  margin-top: 10px;
+}
+.bateriainterna-off{
+  background-color: rgb(84, 13, 13);
+  margin-top: 10px;
+}
+
+.sinal .bateriainterna{
+  padding-top: 10px;
+}
+
+
+.textobateriainterna{
+  float: left;
+  padding-right: 45px; 
 }
 
 #aguarde{
     font-family: Trebuchet MS, sans-serif;
     margin-left: 200px;
+    padding-right: 0px;
+    border: solid;
+}
+.aguarde-on{
+  background-color: yellow;
+}
+.aguarde-off{
+  background-color: rgb(72, 72, 9);
+}
+.textoaguarde{
+  float: left;
+  padding-right: 39px; 
 }
 
 #liberado{
     font-family: Trebuchet MS, sans-serif;
     margin-left: 132px;
-
+    border: solid;
+    padding-right: 0px;
+}
+.liberado-on{
+  background-color: green;
+}
+.liberado-off{
+  background-color: rgb(14, 82, 14);
+}
+.textoliberado{
+  float: left;
+  padding-right: 39px; 
 }
