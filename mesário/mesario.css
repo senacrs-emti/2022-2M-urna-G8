@@ -16,9 +16,10 @@
   /*===============================================*/ 
   #tela{
     background-color: rgb(61, 138, 70);
-    margin-left: 415px;
-    margin-right: 410px;
-    padding-bottom: 100px;
+    margin-left: 350px;
+    margin-right: 300px;
+    padding-bottom: 7px;
+    padding-top: 7px;
     margin-top: 30px;
     border: solid;
   }
@@ -32,7 +33,7 @@
 
   }
 
-  #telaletra{
+  .telaletra{
     font-weight: bold;
     font-family: 'vcr_osd_monoregular';
   }
@@ -71,24 +72,24 @@
   }
   
   #um{
-    margin-left: 558px;
+    margin-left: 480px;
     margin-bottom: 5px;
     margin-top: 80px;
   }
 
   #dois{
-    margin-left: 558px;
+    margin-left: 480px;
     margin-bottom: 5px;
   }
 
   #quatro{
-    margin-left: 558px;
+    margin-left: 480px;
     margin-bottom: 15px;
 
   }
 
   #cinco{
-    margin-left: 503px;
+    margin-left: 425px;
     margin-bottom: 5px;
 }
 
@@ -164,7 +165,7 @@
 
 #liberado{
     font-family: Trebuchet MS, sans-serif;
-    margin-left: 132px;
+    margin-left: 130px;
     border: solid;
     padding-right: 0px;
 }
@@ -177,4 +178,12 @@
 .textoliberado{
   float: left;
   padding-right: 39px; 
+}
+
+#tudo{
+  border: solid;
+  padding-bottom: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 30px;
 }
