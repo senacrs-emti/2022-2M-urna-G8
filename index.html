@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <!------------------- Imagem Logo Senac ---------------------------->
+
+        <div class="img">
+            <img id="logo" src="img/logo-senac.png" alt="">
+
+        </div>
+        <!--==============================================================-->
+
+
+            
+            <!------------------------Tela da Urna------------------------------>
+            <!--==============================================================-->
+
+        <div id="tudo">
+
+            <div id="tela">
+
+            </div>
+            <!---------------------------Botões da Urna------------------------->
+
+            <div id="je">
+                <img id="brasa" src="img/brasao.gif" alt="">
+                <h1 id="texto_justo"> JUSTIÇA <br> ELEITORAL </h1>
+            </div>
+
+            <div class="todosurna buttonc">
+
+                <div class="numeros">
+
+                    <div class="container">
+                        <a class="button">1</a>
+                        <a class="button">2</a>
+                        <a class="button">3</a>  
+                    </div>     
+                
+                    <div class="container">
+                        <a class="button">4</a>
+                        <a class="button">5</a>
+                        <a class="button">6</a>
+                    </div>
+                
+                    <div class="container">
+                        <a class="button">7</a>
+                        <a class="button">8</a>
+                        <a class="button">9</a>
+                    </div>
+                
+                    <div class="container">
+                        <a id="zero" class="button">0</a>
+                    </div>
+
+                </div>
+            
+                <!---------------------------Botões Corrige e Confirma------------------------->
+            
+            <div class="container corcon">
+                <button id="branco" class=" bcc">BRANCO</button>
+                <button id="corrige" class=" bcc">CORRIGE</button>
+                <button id="confirma" class="confirma bcc">CONFIRMA</button>
+            </div>
+
+            </div>
+        </div>
+            <!--===============================================================================-->
+
+    </main>
+
+    <audio src="audio/som-confirma.mp3"></audio>
+
+    <script>
+        const button = document.querySelector('.confirma')
+        button.addEventListener('click', function(){
+            const audio = document.querySelector('audio')
+            audio.play()
+        })
+    </script>
+    
+</body>
+</html
