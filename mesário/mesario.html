@@ -13,19 +13,25 @@
 <body>
     <main>
         <div id="tudo">
-            <div id="tela">
-                <h3 id="telaletra1" class="telaletra">*  TERMINAL DO MESARIO UE2009 DIEBOLD *</h3>
-                <h3 id="telaletra2" class="telaletra">               V1.15 2010               </h3>
-                <h3 id="telaletra3" class="telaletra">   AUTENTICACAO DO S.O. MANUTENCAO OK   </h3>
-                <h3 id="telaletra4" class="telaletra">0000000000000000000000000000000000000000</h3>
-                <input type="text" value="" id="dados">
+            <div class="container">
+                <div>
+                    <img id="logo" src="img/logo-senac.png" alt="">
+                </div>
+                <div id="tela">
+                    <h3 id="telaletra1" class="telaletra">*  TERMINAL DO MESARIO UE2009 DIEBOLD *</h3>
+                    <h3 id="telaletra2" class="telaletra">               V1.15 2010               </h3>
+                    <h3 id="telaletra3" class="telaletra">   AUTENTICACAO DO S.O. MANUTENCAO OK   </h3>
+                    <h3 id="telaletra4" class="telaletra">0000000000000000000000000000000000000000</h3>
+                    <input type="text" value="" id="dados">
+                </div>
             </div>
+            
             <div class="todosurna buttonc">
 
                 <div class="container" id="um">
-                    <a class="button" onclick="botao(1);">1</a>
-                    <a class="button">2</a>
-                    <a class="button">3</a>
+                    <button class="button" onclick="botao(1);">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
                     <div id="seguranca">
                         <div id="segurancaletra">
                             <h3 class="texto">SEGURANÇA</h3>
@@ -35,9 +41,9 @@
                 </div>     
             
                 <div class="container" id="dois">
-                    <a class="button">4</a>
-                    <a class="button">5</a>
-                    <a class="button">6</a>
+                    <button class="button">4</button>
+                    <button class="button">5</button>
+                    <button class="button">6</button>
                     <div id="bateriainterna">
                         <h3 class="textobateriainterna">BATERIA <br> INTERNA</h3>
                         <div class="sinal bateriainterna-off"></div>
@@ -45,9 +51,9 @@
                 </div>
             
                 <div class="container" id="quatro">
-                    <a class="button">7</a>
-                    <a class="button">8</a>
-                    <a class="button">9</a>
+                    <button class="button">7</button>
+                    <button class="button">8</button>
+                    <button class="button">9</button>
                     <div id="aguarde">
                         <h3 class="textoaguarde">AGUARDE</h3>
                         <div class="sinal aguarde-off"></div>
@@ -55,9 +61,9 @@
                 </div>
             
                 <div id="cinco" class="container">
-                    <a id="corrige" class="button bcc">CORRIGE</a>
-                    <a class="button">0</a>
-                    <a id="confirma" class="button bcc">CONFIRMA</a>
+                    <button id="corrige" class="button bcc">CORRIGE</button>
+                    <button class="button">0</button>
+                    <button id="confirma" class="button bcc">CONFIRMA</button>
                     <div id="liberado">
                         <h3 class="textoliberado">LIBERADO</h3>
                         <div class="sinal liberado-off"></div>

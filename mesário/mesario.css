@@ -14,12 +14,18 @@
     align-items: center;
   }
   /*===============================================*/ 
+
+#logo{
+  width: 300px;
+  padding-top: 33px;
+}
+
   #tela{
     background-color: rgb(61, 138, 70);
-    margin-left: 350px;
+    margin-left: 86px;
     margin-right: 300px;
     padding-bottom: 7px;
-    padding-top: 7px;
+    padding-top: 9px;
     margin-top: 30px;
     border: solid;
   }
@@ -52,6 +58,7 @@
     color: rgb(255, 255, 255);
     font-family: Trebuchet MS, sans-serif;
   }
+
     
   .button:hover{
     border-width:0 2px 3px 0; 
@@ -60,6 +67,7 @@
     left:2px;
     top:3px; 
   }
+  
     
   #corrige{
     background-color: red;
@@ -72,24 +80,24 @@
   }
   
   #um{
-    margin-left: 480px;
+    margin-left: 507px;
     margin-bottom: 5px;
-    margin-top: 80px;
+    margin-top: 18px;
   }
 
   #dois{
-    margin-left: 480px;
+    margin-left: 507px;
     margin-bottom: 5px;
   }
 
   #quatro{
-    margin-left: 480px;
+    margin-left: 507px;
     margin-bottom: 15px;
 
   }
 
   #cinco{
-    margin-left: 425px;
+    margin-left: 460px;
     margin-bottom: 5px;
 }
 
@@ -165,7 +173,7 @@
 
 #liberado{
     font-family: Trebuchet MS, sans-serif;
-    margin-left: 130px;
+    margin-left: 143px;
     border: solid;
     padding-right: 0px;
 }
@@ -187,3 +195,5 @@
   margin-right: 90px;
   margin-top: 30px;
 }
+
+
