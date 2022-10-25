@@ -59,7 +59,23 @@
     font-family: Trebuchet MS, sans-serif;
   }
 
-    
+  .but{
+    margin-right: 10px;
+    margin-top: 0px;
+    background-color: rgb(43, 39, 39);
+    height: 48px;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: rgb(87 87 88);
+    width: 3rem;
+    color: white;
+  }
+
+
+/*
   .button:hover{
     border-width:0 2px 3px 0; 
     margin-right:4px;
@@ -67,16 +83,35 @@
     left:2px;
     top: 3px; 
   }
-  
+  */
     
   #corrige{
     background-color: red;
     border-color: rgb(186, 7, 7);
+    margin-right: 9px;
+    margin-top: 1px;
+    height: 48px;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 90px;
+    color: white;
   }
   
   #confirma{
     background-color: rgb(37, 201, 37);
     border-color: green;
+    margin-right: 9px;
+    margin-top: 1px;
+    height: 48px;
+    font-family: Trebuchet MS, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 0rem 2rem 0rem 2.5rem;
+    width: 3rem;
+    color: white;
   }
   
   #um{
